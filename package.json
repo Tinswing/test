@@ -1,0 +1,21 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "测试项目",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --entry ./src/js/show.js --output-filename ./dist/bundle.js",
+    "build": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+}
